@@ -7,5 +7,5 @@ npm install
 npm start
 
 ## Features
-- Text summarization using Gemini API
+- Text summarization using Grok API
 - Client + Server architecture
