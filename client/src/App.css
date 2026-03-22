@@ -1,0 +1,148 @@
+/* ===== BASE ===== */
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #f5f7fa;
+}
+
+/* ===== CONTAINER ===== */
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 30px 20px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* ===== INPUT CARD ===== */
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+
+/* ===== TEXTAREA ===== */
+textarea {
+  width: 100%;
+  height: 130px;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  resize: none;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+textarea:focus {
+  border-color: #4a90e2;
+  outline: none;
+}
+
+/* ===== BUTTON ===== */
+button {
+  margin-top: 12px;
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #4a90e2, #357abd);
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+}
+
+button:disabled {
+  background: #999;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+/* ===== CHARACTER COUNTER ===== */
+.counter {
+  font-size: 13px;
+  margin-top: 6px;
+  color: #666;
+  text-align: right;
+}
+
+/* ===== RESULT ===== */
+.result {
+  margin-top: 25px;
+  display: grid;
+  gap: 15px;
+}
+
+/* ===== RESULT CARDS ===== */
+.result-card {
+  background: white;
+  padding: 18px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+  transition: 0.2s;
+}
+
+.result-card:hover {
+  transform: translateY(-2px);
+}
+
+.result-card h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.result-card ul {
+  padding-left: 20px;
+}
+
+/* ===== SENTIMENT COLORS ===== */
+.sentiment {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.sentiment.positive {
+  color: green;
+}
+
+.sentiment.neutral {
+  color: orange;
+}
+
+.sentiment.negative {
+  color: red;
+}
+
+/* ===== COPY BUTTON (SMALL BUTTON) ===== */
+.copy-btn {
+  margin-top: 10px;
+  padding: 6px 10px;
+  font-size: 13px;
+  width: auto;
+  background: #eee;
+  color: #333;
+  border-radius: 6px;
+}
+
+.copy-btn:hover {
+  background: #ddd;
+}
+
+/* ===== LOADING ANIMATION ===== */
+.loading {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #4a90e2;
+}
